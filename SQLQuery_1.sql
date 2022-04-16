@@ -42,6 +42,6 @@ SELECT Id, [Name] + ' ' + [Surname] AS 'FullName', BirthDate, Salary FROM Employ
 WHERE Salary BETWEEN 1000 and 2500
 
 SELECT * FROM Employee
-WHERE [Name] LIKE '%A%'
+WHERE [Name] LIKE 'A%'
 
 
